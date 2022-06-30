@@ -9,8 +9,7 @@ def main(s):
     i = 0
     counter = 0
     while i <len(s):
-        if s[i].isdigit():
-            counter+=1
+        counter+=s[i].isdigit()
         i+=1
     return counter
 print(main("f32fddh3"))
