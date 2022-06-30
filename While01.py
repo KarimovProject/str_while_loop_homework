@@ -16,3 +16,4 @@ def main(s):
             counter+=1
         i+=1
     return counter
+print(main("f32fddh3"))
