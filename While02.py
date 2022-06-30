@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    counter = 0
+    while i <len(s):
+        counter+=s[i].isalpha()
+        i+=1
+    return counter
+print(main("f32fddh3"))
