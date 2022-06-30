@@ -1,6 +1,3 @@
-from typing import Counter
-
-
 def main(s):
     """
     A variable of type str is given. Find how many numbers it contains and return.
