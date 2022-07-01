@@ -11,5 +11,6 @@ def main(s):
     while i <len(s):
         counter+=s[i].isdigit()
         i+=1
+        
     return counter
 print(main("f32fddh3"))
